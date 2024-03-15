@@ -5,8 +5,12 @@ const App = () => {
 
   return (
     <>
-      <Header />
-      <Hero />
+      <div className="relative">
+        <div className="absolute top-2 right-0 left-0">
+          <Header />
+        </div>
+        <Hero />
+      </div>
     </>
   )
 }
