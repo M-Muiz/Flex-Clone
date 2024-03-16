@@ -13,13 +13,18 @@ body {
 }
 
 .gredient_color {
-    color: linear-gradient(136deg, rgb(241, 125, 0) 0%, rgb(208, 67, 17) 100%);
+    color: rgb(255, 121, 0);
 }
 
 .gray_background {
     background-color: rgba(46, 46, 46, 0.7);
 }
 
+.hover:hover {
+    background-color: rgba(46, 46, 46, 0.7);
+    border-radius: 8px;
+}
+
 .secondary_text {
-    color: gray;
+    color: rgb(238, 238, 238);
 }
