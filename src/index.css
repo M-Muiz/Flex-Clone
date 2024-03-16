@@ -28,3 +28,18 @@ body {
 .secondary_text {
     color: rgb(238, 238, 238);
 }
+
+.link {
+    position: relative;
+    padding: 3px;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    bottom: 0.2px;
+    background-color: white;
+    width: max-content;
+    height: 2px;
+    width: 100%;
+}

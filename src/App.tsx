@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
+import Plan from "./components/Plan/Plan"
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
         </div>
         <Hero />
       </div>
+      <Plan />
     </>
   )
 }
