@@ -2,6 +2,7 @@ import ComeTo from "./components/ComeTO/ComeTo"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Plan from "./components/Plan/Plan"
+import Pormotions from "./components/Pormotions/Pormotions"
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
       </div>
       <Plan />
       <ComeTo />
+      <Pormotions />
     </>
   )
 }
