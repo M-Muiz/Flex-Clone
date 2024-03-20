@@ -8,6 +8,7 @@ import { sliderSettings } from "../../utils/slider"
 const ComeTo = () => {
 
     const swiper = useSwiper();
+    console.log(swiper)
 
     return (
         <div className="max-w-6xl mx-auto flex flex-col gap-5 mt-12">
@@ -16,7 +17,7 @@ const ComeTo = () => {
 
             <div className="overflow-x-hidden relative z-0">
                 <div className="absolute flex items-center justify-between w-full h-full z-30">
-                    <button onClick={() => swiper.slidePrev()} className="slider_button">&lt;</button>
+                    <button onClick={() => console.log("hy")} className="slider_button">&lt;</button>
                     <button onClick={() => swiper.slideNext()} className="slider_button">&gt;</button>
                 </div>
                 <Swiper {...sliderSettings}>
